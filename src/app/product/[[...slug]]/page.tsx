@@ -5,7 +5,7 @@ async function getData() {
   //   cache: "no-store"
   // });
 
-  const res = await fetch('http://localhost:3000/api/productss', {
+  const res = await fetch('http://localhost:3000/api/product', {
     cache: "force-cache",
     next: {
       tags: ['products'],
